@@ -1,19 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './global.css';
+import Routes from './routes'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Hallo Welt!
-        </p>
- 
-      </header>
-    </div>
-  );
+
+function App(){
+
+    return(
+   <Routes />
+    );
 }
 
 export default App;
